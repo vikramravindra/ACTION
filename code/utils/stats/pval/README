@@ -1,0 +1,74 @@
+    **************************************************************************
+    *                                                                        *
+    *              National Center for Biotechnology Information             *
+    *       Bldg. 38A, NIH,  8600 Rockville Pike,  Bethesda, MD  20894       *
+    *                                                                        *
+    *                             COPYRIGHT NOTICE                           *
+    *                                                                        *
+    * This software/database is "United States Government Work" under the    *
+    * terms of the United States Copyright Act.  It was written as part of   *
+    * the author's official duties as a Government employee and thus cannot  *
+    * be copyrighted.  This software/database is freely available to the     *
+    * public for use without a copyright notice.  Restrictions cannot be     *
+    * placed on its present or future use.                                   *
+    *                                                                        *
+    * Although all reasonable efforts have been taken to ensure the accuracy *
+    * and reliability of the software and data, the National Library of      *
+    * Medicine (NLM) and the U.S. Government does not and cannot warrant the *
+    * performance or results that may be obtained by using this software or  *
+    * data.  The NLM and the U.S. Government disclaims all warranties as to  *
+    * performance, merchantability or fitness for any particular purpose.    *
+    *                                                                        *
+    * In any work or product derived from this material, proper attribution  *
+    * of the author as the source of the software or data would be           *
+    * appreciated.                                                           *
+    *                                                                        *
+    **************************************************************************
+
+
+
+
+CoinedPValues
+====================================
+
+CoinedPValues C++ Class
+------------------------------------
+
+The C++ source code implemented is design to combine independent
+P-values weighted or not weighted. The C++ code provides the user 
+with four functions used to combine P-values:
+Fisher's, Good's, Mathai's and our own function which 
+is numerically stable even when the
+weights are identical or numerically close to one another. 
+The various available functions can be found in the header file
+CoinedPValues.h and the implementation of the functions can be found 
+in CoinedPValues.cpp file. We also provide the user with an example
+file (Example_CoinedPValues.cpp) to demonstrate how to call
+the various functions.
+
+Compiling
+-------------------------------------
+
+The source code for the standalone version can be easily compiled
+with the following command in Linux.
+$ g++ -Wall -c CoinedPValues.cpp
+The above command will generate the object file (.o) which can be later linked to the main code as shown below.
+$ g++ -Wall main_code_name.cpp CoinedPValues.o -o main_code_name -lm
+
+
+
+Reference
+---------------------------
+
+Gelio alves and Yi-Kuo. Yu. Combining independent, arbitrarily weighted P-values: a new solution to an old problem using a novel expansion with controllable accuracy. ArXiv e-print 1011.6627, 2010. <http://http://arxiv.org/abs/1011.6627>
+Gelio alves and Yi-Kuo. Yu. Combining independent, weighted P-values: achieving computational stability by a systematic expansion with controllable accuracy. PLoS One. 2011;6(8):e22647. doi: 10.1371/journal.pone.0022647. Epub 2011 Aug 31.
+
+
+Contact
+-------------------------
+
+Please write to alves-at-ncbi.nlm.nih.gov for any bug reports, suggestions or requests. 
+
+
+
+ 
