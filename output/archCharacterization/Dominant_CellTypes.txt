@@ -1,0 +1,23 @@
+	A1	A2	A3	A4	A5	A6	A7	A8
+Rank 1	T cells CD8	B cells memory	T cells CD4 naive	Mast cells resting	Dendritic cells resting	Macrophages M0	Monocytes	Dendritic cells resting
+Rank 2	T cells CD4 memory resting	B cells naive	T cells CD8	Macrophages M0	Macrophages M0	Dendritic cells resting	Macrophages M0	Macrophages M0
+Rank 3	NK cells activated	Plasma cells	T cells CD4 memory activated	Dendritic cells resting	Mast cells resting	Mast cells resting	Dendritic cells resting	Macrophages M2
+Rank 4	NK cells resting	Eosinophils	NK cells resting	Mast cells activated	Mast cells activated	Macrophages M2	Macrophages M2	Macrophages M1
+Rank 5	T cells follicular helper	T cells CD4 naive	T cells CD4 memory resting	Dendritic cells activated	Plasma cells	Mast cells activated	Neutrophils	Mast cells resting
+Rank 6	T cells gamma delta	Macrophages M1	Mast cells resting	Macrophages M2	Macrophages M2	Neutrophils	Macrophages M1	Dendritic cells activated
+Rank 7	T cells CD4 memory activated	Monocytes	Neutrophils	Monocytes	Dendritic cells activated	Plasma cells	Dendritic cells activated	Mast cells activated
+Rank 8	T cells CD4 naive	Neutrophils	Eosinophils	Plasma cells	Monocytes	Macrophages M1	Eosinophils	Monocytes
+Rank 9	T cells regulatory (Tregs)	Macrophages M2	NK cells activated	Eosinophils	Macrophages M1	Monocytes	Mast cells activated	Neutrophils
+Rank 10	Eosinophils	T cells CD4 memory resting	T cells regulatory (Tregs)	Neutrophils	Neutrophils	Eosinophils	Mast cells resting	Eosinophils
+Rank 11	Macrophages M1	Dendritic cells activated	T cells gamma delta	Macrophages M1	Eosinophils	Dendritic cells activated	Plasma cells	Plasma cells
+Rank 12	B cells memory	T cells regulatory (Tregs)	Monocytes	B cells naive	T cells regulatory (Tregs)	B cells naive	B cells memory	B cells naive
+Rank 13	Dendritic cells activated	T cells follicular helper	T cells follicular helper	T cells regulatory (Tregs)	B cells naive	B cells memory	B cells naive	B cells memory
+Rank 14	B cells naive	T cells CD8	Mast cells activated	T cells CD4 memory activated	T cells gamma delta	NK cells resting	T cells gamma delta	T cells regulatory (Tregs)
+Rank 15	Neutrophils	Dendritic cells resting	B cells naive	B cells memory	T cells CD4 memory activated	T cells CD4 memory activated	NK cells activated	NK cells resting
+Rank 16	Mast cells activated	Mast cells activated	Macrophages M1	T cells gamma delta	B cells memory	T cells CD4 naive	NK cells resting	T cells gamma delta
+Rank 17	Plasma cells	Macrophages M0	Dendritic cells activated	T cells follicular helper	T cells follicular helper	T cells regulatory (Tregs)	T cells CD4 memory activated	NK cells activated
+Rank 18	Mast cells resting	Mast cells resting	Macrophages M2	NK cells activated	NK cells activated	T cells gamma delta	T cells regulatory (Tregs)	T cells CD4 memory activated
+Rank 19	Macrophages M2	T cells CD4 memory activated	B cells memory	NK cells resting	NK cells resting	T cells follicular helper	T cells follicular helper	T cells CD4 naive
+Rank 20	Monocytes	NK cells activated	Macrophages M0	T cells CD4 naive	T cells CD4 naive	NK cells activated	T cells CD4 memory resting	T cells follicular helper
+Rank 21	Macrophages M0	T cells gamma delta	Plasma cells	T cells CD4 memory resting	T cells CD4 memory resting	T cells CD8	T cells CD4 naive	T cells CD8
+Rank 22	Dendritic cells resting	NK cells resting	Dendritic cells resting	T cells CD8	T cells CD8	T cells CD4 memory resting	T cells CD8	T cells CD4 memory resting
