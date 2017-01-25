@@ -1,0 +1,9 @@
+brain	5.1351e-74	1
+colo-rectal	7.1142e-87	1
+kidney	6.1309e-28	1
+liver	3.0922e-152	1
+lung	0.00030687	1
+ovary	1	1
+stomach	4.0144e-45	1
+urinary bladder	2.143e-35	1
+skin	0.00038833	1
