@@ -5,6 +5,8 @@ function [ Y, X_z ] = OPA( X, varargin )
 % representing a categorical confounding factor 
 % Output) Y: Adjusted transcriptional signatures
 
+    X = full(X);
+
     params = inputParser;    
     params.addParamValue('housekeeping', mean(X, 2), @(x) isvector(x)); % vector of gene expression for housekeeping genes
     params.addParamValue('factors', {}, @(x) iscell(x)); % table of confounding factors   
@@ -50,10 +52,13 @@ function [ Y, X_z ] = OPA( X, varargin )
     
     % Project to the orthogonal subspace
     X_z = my_zscore(X); % zscore(X); % Raw signatures
+    clear X;
+    
     X_r = orthoProject( X_z, Basis_z );        
+    clear X_z Basis_z
     
     % Standardize
     Y = my_zscore(X_r);%    zscore(X_r); % Adjusted signatures 
-    
+    clear X_r;
 end
 

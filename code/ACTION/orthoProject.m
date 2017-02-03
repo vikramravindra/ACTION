@@ -4,6 +4,7 @@ function [ X_R ] = orthoProject( X, Z )
     else
         [~, pivcol] = rref(Z);    
         A = Z(:, pivcol);    
+        clear Z;
 
     %     P = A/(A'*A)*A';
     %     I = eye(size(P));    
